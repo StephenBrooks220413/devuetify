@@ -9,6 +9,12 @@
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
+  <style>
+    .social i {
+      font-size: 1.7em!important;
+      padding: 10px!important;
+    }
+  </style>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
@@ -44,7 +50,47 @@
     </nav> -->
     <div id="app"></div>
     <!-- built files will be auto injected -->
-
+    <footer>
+      <div class="footer">
+        <div class="container">
+            <div class="row text-center">
+                <br> <br>
+                <div class="col-md-4">
+                    <h3>Company Policy</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,
+                        quae sit! Iusto libero amet similique necessitatibus. Iusto fugiat
+                        assumenda quam!
+                    </p>
+                </div>
+                <br><br>
+                <div class="col-md-4">
+                    <h3>Locate Us</h3>
+                    <address>
+                        1151 Main St - Any City, State <br>
+                        555-555-5555
+                    </address>
+                    - Chicago, IL, Dallas, TX
+                </div>
+                <br><br>
+                <div class="col-md-4">
+                    <h3>Need Help?</h3>
+                    <p>
+                        Email Support <i class="far fa-envelope"></i> <br>
+                        Email Developer <i class="far fa-envelope"></i>
+                    </p>
+                    <p>555-555-1151</p>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center social">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-github-alt"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+    </div>
+    </footer>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/cce4d0df7e.js" crossorigin="anonymous"></script>
     <!-- bootstrap javascript cdn -->
