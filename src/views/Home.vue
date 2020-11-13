@@ -1,77 +1,49 @@
 <template>
 <div class="home">
-    <v-container>
-        <br><br><br>
-        <h1 class="display-4 text-center">Technology & Programming</h1>
-        <br>
-        <div class="text-center">
-            <img src="../assets/logo.png" class="img" width="110px" height="90px" alt="logo">
-            <img src="../assets/js-logo.png" class="img" width="110px" height="90px" alt="logo">
-            <img src="../assets/react-logo.png" class="img" width="110px" height="90px" alt="logo">
-            <img src="../assets/asp.net_.png" class="img" width="110px" height="90px" alt="logo">
-        </div>
-        <br>
-        <div class="container content">
-            <div class="row text-center">
-                <div col-md-6>
-                    <h1>Making headway</h1>
-                    <p class="lead">upcoming technology for layouts are including C# and Vue.js</p>
-                </div>
-                <div class="col-md-6">
-                    <a class="btn btn-success" href="mailto:stephen.brooks220413@gmail.com" target="_blank">MORE INFO</a>
-                </div>
+    <br><br><br>
+    <div class="text-center">
+        <h1 class="display-4">Vue Developer</h1>
+    </div>
+    <br><br><br>
+    <div class="container">
+        <center>
+            <img src="../assets/logo.png" alt="">
+        </center>
+        <br><br>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h1>Front End</h1>
+                <h5>Using Vue.js with Bootstrap</h5>
+            </div>
+            <div class="col-md-4">
+                <h1>Back End</h1>
+                <h5>Using Node and JSON connections</h5>
+            </div>
+            <div class="col-md-4">
+                <h1>Fullstack</h1>
+                <h5>Using asp.Net with Vue.js / C#</h5>
             </div>
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore saepe in</h4>
-                </div>
-                <div class="col-md-4">
-                    <h4>inventore! Ut explicabo enim minima beatae ex dolorem deserunt molestias repellendus omnis!</h4>
-                </div>
-                <div class="col-md-4">
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore saepe in</h4>
-                </div>
-            </div>
-        </div>
-        <br><br><br><br><br>
-    </v-container>
+    </div>
 </div>
 </template>
 
-<style>
-body {
-    background: rgb(2, 0, 36);
-    background: radial-gradient(circle, rgba(2, 0, 36, 0.4770950616574755) 0%, rgba(235, 238, 238, 1) 67%);
+<style scoped>
+.homeBg {
+    background: url(#) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
-.img {
-    padding-right: 30px;
+.home {
+    margin-bottom: 240px;
 }
 
-.app-bar {
-    height: 60vh;
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.content {
-    margin-top: 40px;
-    margin-bottom: 60px;
-}
-
-h1 {
-    color: teal !important;
-}
-
-.btn {
-    margin-top: 30px;
-    margin-bottom: 80px;
-    font-size: 1.8em !important;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.jumbotron {
+    background-color: white !important;
 }
 </style>

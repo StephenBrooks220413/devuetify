@@ -4,7 +4,7 @@
     <!-- <div id="nav"> -->
     <v-app-bar app>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Developer</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -16,12 +16,12 @@
                     <router-link class="nav-link nav-item" to="/catalog">Catalog</router-link>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown link
+                            Follow Us
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#" target="_blank">Facebook</a>
+                            <a class="dropdown-item" href="#" target="_blank">Twitter</a>
+                            <a class="dropdown-item" href="#" target="_blank">LinkedIn</a>
                         </div>
                     </li>
                 </ul>
