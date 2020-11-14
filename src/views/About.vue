@@ -1,8 +1,8 @@
 <template>
 <div class="about">
     <div class="jumbotron text-center">
-        <h1>About Vue Development</h1>
-        About Vue & Why Choose that as a framework
+        <h1>About Vue Stacks</h1>
+        Compared to React, Angular, asp.Net, LampStack, MeanStack
     </div>
     <br><br><br>
     <article class="container">

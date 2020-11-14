@@ -21,8 +21,8 @@
             </select>
         </div><br>
         <div class="form-group">
-            <label for="validationTextarea">Textarea</label>
-            <textarea class="form-control is-invalid" rows="3" cols="25" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+            <label for="validationTextarea">Message</label>
+            <textarea class="form-control is-invalid" rows="3" cols="25" id="validationTextarea" placeholder="Your Message Here" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Sign in</button>
     </form>

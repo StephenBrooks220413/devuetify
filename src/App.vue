@@ -4,13 +4,13 @@
     <!-- <div id="nav"> -->
     <v-app-bar app>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Developer</a>
+            <a class="navbar-brand" href="#">DevVuer</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <router-link class="nav-link nav-item" to="/">Home</router-link>
+                    <router-link class="nav-link nav-item active-link" to="/">Home</router-link>
                     <router-link class="nav-link nav-item" to="/about">About</router-link>
                     <router-link class="nav-link nav-item" to="/contact">Contact</router-link>
                     <router-link class="nav-link nav-item" to="/catalog">Catalog</router-link>
@@ -30,17 +30,16 @@
     </v-app-bar>
     <v-main>
         <router-view />
-        <v-container fluid>
-
-        </v-container>
-
-        <v-navigation-drawer app>
-        </v-navigation-drawer>
 
     </v-main>
     <!-- </div> -->
     <v-footer app>
-
+        <hr>
+        <div class="footer">
+            <p>
+                &copy; 2020 - VueDeveloper {www.devVuer.com}
+            </p>
+        </div>
     </v-footer>
 </v-app>
 <!-- </div> -->
@@ -70,15 +69,17 @@
     }
 }
 
-footer {
-    background-color: black;
-    color: teal !important;
-    bottom: 0;
-    padding-top: 40px;
-    padding-bottom: 50px;
-}
-
-.footer h3 {
-    color: white !important;
+.footer {
+    line-height: 50px;
+    padding-left: 10%;
+    padding-top: 10px;
 }
 </style>
+
+<script>
+import '../src/main';
+
+export default {
+
+}
+</script>
